@@ -1,0 +1,345 @@
+body{
+    background-color: #a3f3f7 ;
+    margin-top: 0px;
+    margin-left:0px;
+    margin-right: 0px;
+ }/* Add a black background color to the top navigation */
+ .topnav {
+   background-color: #1ecdd6;
+   overflow: hidden;
+ }
+ 
+ /* Style the links inside the navigation bar */
+ .topnav a {
+   float: left;
+   color: #1253cc;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 20px;
+   font-family:'Shadows Into Light', cursive;
+ }
+ 
+ /* Add a color to the active/current link */
+ .topnav a.active {
+   background-color: #1ecdd6;
+   color:#1253cc;
+ }
+ h1{
+     
+     float:center;
+     float: left;
+     color: #1253cc;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 40px;
+     font-family:'Great Vibes', cursive;
+     position: relative; 
+     bottom: 90px;
+     left: 550px;
+     margin-top: 30px;
+ }body{
+  background-color: #a3f3f7 ;
+  margin-top: 0px;
+  margin-left:0px;
+  margin-right: 0px;
+}/* Add a black background color to the top navigation */
+.topnav {
+ background-color: #1ecdd6;
+ overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+ float: left;
+ color: #1253cc;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 20px;
+ font-family:'Shadows Into Light', cursive;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+ background-color: #1ecdd6;
+ color:#1253cc;
+}
+h1{
+   
+   float:center;
+   float: left;
+   color: #1253cc;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 40px;
+   font-family:'Great Vibes', cursive;
+   position: relative; 
+   bottom: 90px;
+   left: 550px;
+   margin-top: 30px;
+}
+h2{
+color: #1253cc;
+text-align: center;
+padding: 14px 16px 0px 0px;
+margin-right: 0px;
+font-size: 40px;
+font-family:'Shadows Into Light', cursive;
+background-color: #1ecdd6;
+}
+.item{
+   height:500px;
+}
+.carousel-inner{
+   margin-bottom: 60px;
+}
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+   float: right;
+   padding: 6px;
+   border: none;
+   margin-top: 8px;
+   margin-right: 16px;
+   margin-left: 16px;
+   font-size: 17px;
+   font-family:'Shadows Into Light', cursive;
+   color:#1253cc;
+ }
+ 
+ /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+ @media screen and (max-width: 600px) {
+   .topnav a, .topnav input[type=text] {
+     float: none;
+     display: block;
+     text-align: left;
+     width: 100%;
+     margin: 0;
+     padding: 14px;
+
+   }
+   .topnav input[type=text] {
+     border: 1px solid #1253cc;
+   }
+ }
+select{
+font-family:'Shadows Into Light', cursive;
+}
+h4{
+font-family:'Shadows Into Light', cursive;
+color:#1253cc;
+font-size: 40px;
+text-align:center;
+margin-top: -35px;
+background-color: #1ecdd6;
+}
+
+
+  h2{
+    color: #1253cc;
+    text-align: center;
+    padding: 15px 59.1px 25px;
+    margin-right: 0px;
+    font-size: 40px;
+    font-family:'Shadows Into Light', cursive;
+    background-color: #1ecdd6;
+    left:350px;
+    }
+ .item{
+     height:500px;
+ }
+ .carousel-inner{
+     margin-bottom: 60px;
+
+     
+ }
+ /* Style the search box inside the navigation bar */
+ .topnav input[type=text] {
+     float: right;
+     padding: 6px;
+     border: none;
+     margin-top: 8px;
+     margin-right: 16px;
+     margin-left: 16px;
+     font-size: 17px;
+     font-family:'Shadows Into Light', cursive;
+     color:#1253cc;
+   }
+   
+   /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+   @media screen and (max-width: 600px) {
+     .topnav a, .topnav input[type=text] {
+       float: none;
+       display: block;
+       text-align: left;
+       width: 100%;
+       margin: 0;
+       padding: 14px;
+  
+     }
+     .topnav input[type=text] {
+       border: 1px solid #1253cc;
+     }
+   }
+
+   h4{
+    font-family:'Shadows Into Light', cursive;
+    color:#1253cc;
+    font-size: 40px;
+    text-align:center;
+    margin-top: -35px;
+    background-color: #1ecdd6;
+    }
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Gudea:700');
+    /* GOOGLE FONTS */
+    
+    /* font-family: 'Fredericka the Great', cursive; */
+    
+    /* font-family: 'Gudea', sans-serif; */
+    
+    /* COLOR PALETTE */
+    
+    /* https://coolors.co/36151e-839791-593f62-e3b23c-edebd7 */
+    
+    :root {
+        --primaryDark: #36151E;
+        --primaryLight: #EDEBD7;
+        --accent: #E3B23C;
+        --alternate: #593F62;
+        --addedPadding: 10px;
+    }
+    
+    html,
+    body,
+    h1,
+    p {
+        margin: 0;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        background-color: var(--primaryDark);
+    }
+    
+    h1,
+    label,
+    #submitButton {
+        font-family: 'Fredericka the Great', cursive;
+        font-weight: bold;
+    }
+    
+    input,
+    .allMessages>p {
+        font-family: 'Gudea', sans-serif;
+    }
+    
+    h1 {
+        font-size: 45px;
+        color: var(--accent);
+        text-align: center;
+    }
+    
+    .allMessages {
+        flex: 1;
+        margin-top: 15px;
+        width: calc(60% + var(--addedPadding)*2);
+        padding: var(--addedPadding);
+        border: 2px solid var(--accent);
+        background-color: var(--primaryLight);
+        color: var(--alternate);
+        overflow-y: scroll;
+        overflow-wrap: break-word;
+        box-sizing: border-box;
+        display: grid;
+        grid-auto-rows: min-content;
+        grid-gap: 5px;
+    }
+    
+    .allMessages>p {
+        text-indent: -2em;
+        margin-left: 2em;
+    }
+    
+    .userContainer {
+        margin: 20px 0 40px 0;
+        width: 60%;
+        border: 2px solid var(--accent);
+        background-color: var(--primaryLight);
+    }
+    
+    label {
+        font-size: 1.3em;
+        color: var(--primaryDark);
+    }
+    
+    input {
+        font-size: 1.3em;
+        background: none;
+        border: unset;
+        border-bottom: var(--alternate) 2px solid;
+        caret-color: var(--accent);
+        color: var(--alternate);
+    }
+    
+    input:focus {
+        outline: none;
+    }
+    
+    .userContainer {
+        padding: var(--addedPadding);
+    }
+    
+    form,
+    .inputContainer,
+    .singleInput {
+        display: grid;
+        grid-gap: var(--addedPadding);
+    }
+    
+    form {
+        grid-template: auto/1fr auto;
+    }
+    
+    .inputContainer {
+        grid-template: auto auto/auto;
+    }
+    
+    .singleInput {
+        grid-template: auto/auto 1fr;
+    }
+    
+    #submitButton {
+        color: var(--primaryDark);
+        background-color: var(--accent);
+        font-size: 1.3em;
+        transition: color 300ms ease-in, background-color 300ms ease-in;
+        cursor: pointer;
+    }
+    
+    #submitButton:hover {
+        background-color: var(--primaryDark);
+        color: var(--accent);
+    }
+    
+    #submitButton:focus {
+        outline-style: none;
+        outline-width: 2px;
+        outline-color: var(--primarydark);
+    }
+
+    .allMessages{
+color: #1253cc;
+text-align: center;
+padding: 14px 16px 0px 0px;
+margin-right: 0px;
+font-size: 40px;
+font-family:'Shadows Into Light', cursive;
+background-color: #1ecdd6;
+}
+

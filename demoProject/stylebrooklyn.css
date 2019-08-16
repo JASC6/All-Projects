@@ -1,0 +1,155 @@
+body{
+    background-color: #a3f3f7 ;
+    margin-top: 0px;
+    margin-left:0px;
+    margin-right: 0px;
+
+ }/* Add a black background color to the top navigation */
+ .topnav {
+   background-color: #1ecdd6;
+   overflow: hidden;
+ }
+ 
+ /* Style the links inside the navigation bar */
+ .topnav a {
+   float: left;
+   color: #1253cc;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 20px;
+   font-family:'Shadows Into Light', cursive;
+ }
+ 
+ /* Add a color to the active/current link */
+ .topnav a.active {
+   background-color: #1ecdd6;
+   color:#1253cc;
+ }
+ h1{
+     
+     float:center;
+     float: left;
+     color: #1253cc;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 40px;
+     font-family:'Great Vibes', cursive;
+     position: relative; 
+     bottom: 90px;
+     left: 550px;
+     margin-top: 30px;
+ }
+ h2{
+    color: #1253cc;
+    text-align: center;
+    padding: 15px 59.1px 25px;
+    margin-right: 0px;
+    font-size: 40px;
+    font-family:'Shadows Into Light', cursive;
+    background-color: #1ecdd6;
+    left:350px;
+    }
+ .item{
+     height:500px;
+ }
+ .carousel-inner{
+     margin-bottom: 60px;
+     
+ }
+ /* Style the search box inside the navigation bar */
+ .topnav input[type=text] {
+     float: right;
+     padding: 6px;
+     border: none;
+     margin-top: 8px;
+     margin-right: 16px;
+     margin-left: 16px;
+     font-size: 17px;
+     font-family:'Shadows Into Light', cursive;
+     color:#1253cc;
+   }
+   
+   /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+   @media screen and (max-width: 600px) {
+     .topnav a, .topnav input[type=text] {
+       float: none;
+       display: block;
+       text-align: left;
+       width: 100%;
+       margin: 0;
+       padding: 14px;
+  
+     }
+     .topnav input[type=text] {
+       border: 1px solid #1253cc;
+     }
+   }
+ select{
+ font-family:'Shadows Into Light', cursive;
+ }
+ h4{
+ font-family:'Shadows Into Light', cursive;
+ color:#1253cc;
+ font-size: 40px;
+ text-align:center;
+ margin-top: -35px;
+ background-color: #1ecdd6;
+ }
+ img { 
+    width: 70%;
+    height: 650px;
+
+ }
+ h5{
+    margin-left:295px;
+ }
+ h6{
+    font-family:'Shadows Into Light', cursive;
+    color:#1253cc;
+    font-size: 20px;
+    position: relative; 
+    top: -500px;
+    left:40px;
+ }
+ h7{
+    font-family:'Shadows Into Light', cursive;
+    color:#1253cc;
+    font-size: 20px;
+    position: relative; 
+    top: -495px;
+    left:40px;
+ }
+ h8{
+    font-family:'Shadows Into Light', cursive;
+    color:#1253cc;
+    font-size: 20px;
+    position: relative; 
+    top: -450px;
+    left:-100px;
+ }
+ h10{
+  font-family:'Shadows Into Light', cursive;
+  color:#1253cc;
+  font-size: 20px;
+  position: relative; 
+  top: -450px;
+  left:-100px;
+}
+ul{
+  font-family:'Shadows Into Light', cursive;
+    color:#1253cc;
+    font-size: 20px;
+    position: relative; 
+    top: -670px;
+    left:40px;
+}
+ul2{
+  font-family:'Shadows Into Light', cursive;
+    color:#1253cc;
+    font-size: 20px;
+    position: relative; 
+    top: -1325px;
+    left:990px;
+}
